@@ -2,7 +2,7 @@ import csv
 
 if __name__ == "__main__":
 
-    f= open('202303_Seoul_Subway.csv',encoding='UTF8')
+    f= open('q4.csv',encoding='UTF8')
     data = csv.reader(f)
     header = next(data)
 

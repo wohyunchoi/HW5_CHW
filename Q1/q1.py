@@ -2,7 +2,7 @@ import csv
 
 if __name__ == "__main__":
 
-    f= open('2022_Seoul_Temp.csv')
+    f= open('q1.csv')
     data = csv.reader(f)
     header = next(data)
     averTemp = 0
